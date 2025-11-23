@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #e6f0d5;
+}
+h1{
+    margin-top: 30px;
+}
+.choices{
+    margin: 20px;
+}
+.choice{
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    background: #97935ad5;
+    transition: hover 0.3s;
+    
+}
+.choice:hover{
+    transform: scale(1.1);
+    background: #dfdd7e;
+}
+hr{
+    margin-top: 5px;
+    width: 50%;
+    margin: 20px auto;
+}
+.reset{
+     padding: 10px 20px;
+    cursor: pointer;
+    background: #97935ad5;
+    transition: hover 0.3s;
+}
+.reset:hover{
+    transform: scale(1.1);
+    background: #dfdd7e;
+}
